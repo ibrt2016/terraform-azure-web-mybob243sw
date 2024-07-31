@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata: 
+  name: "vnet-mybob243sw-prod-us-east-001"
+spec:
+  type: azure-virtual-network
+  owner: it #'bob-tayara'
+  system: mybob243sw-terraform-azure-infra
